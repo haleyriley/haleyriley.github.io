@@ -1,0 +1,38 @@
+body {
+    background-color: #afd5d8;
+}
+
+main {
+  width: 80%;
+  margin: 80px auto;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
+
+.snow {
+  width: 400px;
+  margin: 80px;
+  animation-name: snow;
+  animation-duration: 4s;
+  animation-iteration-count: linear;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  }
+
+
+@keyframes snow {
+  0%  {left:(0px); top:(0px);}
+  25%  {left:(0px); top:(200px);}
+  50%  {left:(0px); top:(0px);}
+  100% {left:(0px); top:(200px);}
+}
+
+.van {
+  width: 400px;
+  margin: 80px;
+}

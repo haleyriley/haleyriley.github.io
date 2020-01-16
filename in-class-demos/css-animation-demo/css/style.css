@@ -16,12 +16,12 @@ a {
   animation-name: spinflower;
   animation-duration: 5s;
   animation-timing-function: linear;
-  animation-fill-mode: fowards;
+  animation-fill-mode: forwards;
 }
 
 @keyframes spinflower {
   0% {
-    transform: rotate(0deg);
+    transform: (0deg);
   }
   100% {
     transform: rotate(360deg);
