@@ -52,25 +52,6 @@ a {
    0%   {left:0px; top:-200px;}
     100% {left:0px; top:100px;}
   }
-  .snow3 {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    animation-name: snow3;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: linear;
-    position: relative;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
-    }
-
-  /* Standard syntax */
-  @keyframes snow3 {
-   0%   {left:0px; top:-200px;}
-    100% {left:0px; top:100px;}
-  }
 .van {
   width: 400px;
   margin-left: auto;
