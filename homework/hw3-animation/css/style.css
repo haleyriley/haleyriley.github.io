@@ -4,7 +4,7 @@ body {
 
 main {
   width: 80%;
-  margin: 80px auto;
+  margin: 40px auto;
 }
 
 a {
@@ -14,8 +14,6 @@ a {
   font-family: inherit;
   color: #fff;
 }
-
-
   .snow {
     width: 400px;
     margin-left: auto;
@@ -31,10 +29,48 @@ a {
 
   /* Standard syntax */
   @keyframes snow {
-   0%   {left:0px; top:0px;}
-    100% {left:0px; top:200px;}
+   0%   {left:0px; top:-200px;}
+    100% {left:0px; top:100px;}
   }
 
+  .snow2 {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: snow2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+    position: relative;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    }
+
+  /* Standard syntax */
+  @keyframes snow2 {
+   0%   {left:0px; top:-200px;}
+    100% {left:0px; top:100px;}
+  }
+  .snow3 {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: snow3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+    position: relative;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    }
+
+  /* Standard syntax */
+  @keyframes snow3 {
+   0%   {left:0px; top:-200px;}
+    100% {left:0px; top:100px;}
+  }
 .van {
   width: 400px;
   margin-left: auto;
