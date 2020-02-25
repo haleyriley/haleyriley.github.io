@@ -1,0 +1,43 @@
+/*main.scss*/
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Open+Sans&display=swap');
+@import "partials/variables";
+/*
+font-family: 'Libre Baskerville', baskerville; ;
+font-family: 'Open Sans', baskerville ;
+*/
+
+
+body {
+  font-family: $body-font;
+}
+
+h1, h2, h3, h4 {
+  color: $primary-text;
+  font-family: $header-font;
+}
+
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  p {
+    font-size: 18px;
+  }
+  a {
+    text-decoration: none;
+    color: $highlight-text;
+    &:hover {
+      text-decoration: line-through;
+      color: complement($highlight-text);
+    }
+  }
+}
