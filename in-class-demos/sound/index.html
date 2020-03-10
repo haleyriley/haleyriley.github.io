@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    th, td {
+      border: 1px solid black;
+    }
+    tr: nth-child(even) {
+      background-color: #999;
+    }
+    </style>
+</head>
+
+<body>
+<h1>Hi There</h1>
+
+
+<table>
+  <tr>
+    <th>
+      Name
+      </th>
+      <th>
+        Address
+        </th>
+        <th>
+          Email
+          </th>
+    </tr>
+    <tr>
+      <td>
+        Fred
+        </td>
+        <td>
+          2348203809428304082903
+        </td>
+          <td>
+            kllllldldlldkfjdkjfk
+          </td>
+          </tr>
+          <tr>
+            <th>
+              Name
+              </th>
+              <th>
+                Address
+                </th>
+                <th>
+                  Email
+                  </th>
+            </tr>
+            <tr>
+              <td>
+                Fred
+                </td>
+                <td>
+                  2348203809428304082903
+                </td>
+                  <td>
+                    kllllldldlldkfjdkjfk
+                  </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      Name
+                      </th>
+                      <th>
+                        Address
+                        </th>
+                        <th>
+                          Email
+                          </th>
+                    </tr>
+                    <tr>
+                      <td>
+                        Fred
+                        </td>
+                        <td>
+                          2348203809428304082903
+                        </td>
+                          <td>
+                            kllllldldlldkfjdkjfk
+                          </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              Name
+                              </th>
+                              <th>
+                                Address
+                                </th>
+                                <th>
+                                  Email
+                                  </th>
+                            </tr>
+                            <tr>
+                              <td>
+                                Fred
+                                </td>
+                                <td>
+                                  2348203809428304082903
+                                </td>
+                                  <td>
+                                    kllllldldlldkfjdkjfk
+                                  </td>
+                                  </tr>
+    </table>
+
+<a href="#" id="playSound">Crane!</a>
+<a href="#" id="pauseSound">Stop!</a>
+  <audio id="pop">
+    <source src="audio/birdsound.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script>
+    $('#playSound').click(function(){
+    $('audio#pop')[0].play()
+    })
+
+    $('#pauseSound').click(function(){
+    $('audio#pop')[0].pause()
+    $('audio#pop')[0].currentTime = 0
+    })
+  </script>
+</body>
+
+</html>
