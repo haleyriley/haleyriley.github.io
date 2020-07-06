@@ -200,8 +200,7 @@ a:hover {
 /*PORTFOLIO*/
 .container {
   position: relative;
-  width: 100%;
-  padding-left: 26%;
+  width: 50%;
   margin: auto;
 }
 
@@ -260,7 +259,7 @@ a:hover {
 
 .column img {
   margin-top: 10px;
-  vertical-align: middle;
+  padding-bottom: 50px;
 }
 
 
@@ -371,7 +370,6 @@ a:hover {
   .container {
     position: relative;
     width: 100%;
-    padding-left: 26%;
     margin: auto;
   }
 
