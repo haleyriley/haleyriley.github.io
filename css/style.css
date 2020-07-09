@@ -71,8 +71,8 @@ h3 {
 }
 
 p {
-  padding-left: 40px;
-  padding-right: 20px;
+  margin: auto;
+  width: 50%;
   text-align: center;
   line-height: 22px;
 }
@@ -86,10 +86,9 @@ p {
   color: #d6a116;
   font-size: 23px;
   font-weight: 500;
-  padding-left: 40px;
-  padding-right: 20px;
-  text-align: center;
   margin: auto;
+  width: 50%;
+  text-align: center;
 }
 
 /* NAVIGATION */
@@ -178,7 +177,6 @@ a:hover {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-
 }
 
 .fa:hover {
@@ -198,6 +196,8 @@ a:hover {
 }
 
 /*PORTFOLIO*/
+
+
 .container {
   position: relative;
   width: 50%;
@@ -285,6 +285,16 @@ a:hover {
    transform: translateY(-50%);
  }
 
+ .button2 {
+   background-color: #fcf8f0;
+   color: black;
+   border: 2px solid #d6a116;
+   margin: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  }
+
 .button:hover {
     text-decoration: line-through;
 }
@@ -295,6 +305,11 @@ a:hover {
 opacity: 1
 }
 
+.button2:hover {
+  background-color: #d6a116;
+  color: #fcf8f0;
+opacity: 1
+}
 /*FOOTER*/
 .footer {
   font-family: 'roboto', sans-Serif;
@@ -388,8 +403,6 @@ opacity: 1
   }
 
   p {
-    padding-left: 40px;
-    padding-right: 20px;
     line-height: 22px;
   }
 
