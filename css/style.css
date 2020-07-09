@@ -196,8 +196,6 @@ a:hover {
 }
 
 /*PORTFOLIO*/
-
-
 .container {
   position: relative;
   width: 50%;
@@ -246,20 +244,18 @@ a:hover {
   display: flex;
   -ms-flex-wrap: wrap; /* IE 10 */
   flex-wrap: wrap;
-  padding-top: 4px;
-  margin-left: 15%;
+  padding-top: 10px;
 }
 
 /* Create two equal columns that sits next to each other */
 .column {
   -ms-flex: 50%; /* IE 10 */
   flex: 50%;
-  padding-top: 4px;
+  padding: 10px;
 }
 
 .column img {
-  margin-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 /*CONTACT*/
