@@ -185,6 +185,11 @@ a:hover {
 }
 
 /*SOCIAL MEDIA*/
+
+.social {
+  margin-left: 45%;
+}
+
 .fa {
   padding-top: 8px;
   width: 35px;
@@ -363,6 +368,7 @@ opacity: 1
   }
 
   .yellowtype {
+    padding-top: 10px;
     color: #d6a116;
     font-size: 23px;
     font-weight: 500;
@@ -396,7 +402,6 @@ opacity: 1
     margin: auto;
     width: 50%;
   }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -415,6 +420,10 @@ opacity: 1
     color: #d6a116;
     font-size: 23px;
     font-weight: 500;
+  }
+
+  .social {
+    margin-left: 43%;
   }
 
   .content-wrapper {
