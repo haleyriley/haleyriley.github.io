@@ -277,7 +277,7 @@ padding-top: 30px;
 /*CONTACT*/
 .button {
   border: none;
-  color: #fcf8f0;
+  color: white;
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
@@ -288,7 +288,7 @@ padding-top: 30px;
 }
 
 .button1 {
-  background-color: #fcf8f0;
+  background-color: white;
   color: black;
   border: 2px solid #504e25;
   margin: 0;
@@ -298,7 +298,7 @@ padding-top: 30px;
  }
 
  .button2 {
-   background-color: #fcf8f0;
+   background-color: white;
    color: black;
    border: 2px solid #d6a116;
    margin: 0;
