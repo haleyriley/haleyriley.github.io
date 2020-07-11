@@ -9,6 +9,14 @@ h1, h2, h3, h4 {
   font-family: 'Roboto', Sans-Serif;
 }
 
+a:visited {
+  color: #d6a116;
+}
+
+a {
+  color: #d6a116;
+}
+
 header {
   padding-top: 40px;
   margin: auto;
