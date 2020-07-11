@@ -24,6 +24,7 @@ header img {
 body {
   font-family: 'Roboto', Sans-Serif;
   background-color: white;
+
 }
 
 h2 {
@@ -359,17 +360,13 @@ opacity: 1
   h3 {
     font-size: 20px;
     line-height: 25px;
-    padding-left: 198px;
-    text-align: left;
   }
 
   .yellowtype {
     color: #d6a116;
     font-size: 23px;
     font-weight: 500;
-    text-align: left;
   }
-
 
   .content-wrapper {
     max-width: 800px;
@@ -411,24 +408,19 @@ opacity: 1
 
   h3 {
     font-size: 20px;
-    font-weight: 400;
     line-height: 25px;
-    padding-left: 125px;
-
-    text-align: left;
   }
 
   .yellowtype {
     color: #d6a116;
     font-size: 23px;
     font-weight: 500;
-    text-align: left;
-    padding-top: 50px;
   }
 
   .content-wrapper {
-    max-width: 600px;
+    max-width: 800px;
     margin-right: auto;
+    margin-left: auto;
     display: block;
     max-height: 500px;
     max-width: 500px;
@@ -443,37 +435,15 @@ opacity: 1
     margin-bottom: -30px;
   }
 
-  h3 {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
-  }
 
   .homepage {
     width: 100%;
   }
 
-
   header {
     padding-top: 40px;
     margin: auto;
     width: 50%;
-  }
-
-  .container {
-    position: relative;
-    width: 100%;
-    margin: auto;
-  }
-
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    padding: 10px;
   }
 
 }
