@@ -197,6 +197,12 @@ a:hover {
 
 /*PORTFOLIO*/
 
+.patterns {
+  margin: auto;
+padding-top: 30px;
+  padding-left: 35%;
+}
+
 .sentinel {
   padding-top: 10px;
 }
@@ -307,13 +313,13 @@ a:hover {
 
 .button1:hover {
   background-color: #504e25;
-  color: #fcf8f0;
+  color: white;
 opacity: 1
 }
 
 .button2:hover {
   background-color: #d6a116;
-  color: #fcf8f0;
+  color: white;
 opacity: 1
 }
 
