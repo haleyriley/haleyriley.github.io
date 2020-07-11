@@ -9,13 +9,6 @@ h1, h2, h3, h4 {
   font-family: 'Roboto', Sans-Serif;
 }
 
-a:visited {
-  color: #d6a116;
-}
-
-a {
-  color: #d6a116;
-}
 
 header {
   padding-top: 40px;
@@ -123,10 +116,23 @@ p {
 .dropdown {
   float: left;
   overflow: hidden;
+  }
+
+  .connected {
+    margin: auto;
+    width: 50%;
+    padding-left: 22%;
 }
 
+ .connected a {
+   color: #d6a116;
+ }
+
+ .connected a:visited {
+   color: #d6a116;
+ }
+
 a:hover {
-  color: black;
   text-decoration: line-through;
 }
 
