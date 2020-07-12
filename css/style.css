@@ -51,25 +51,24 @@ h2 {
 
 /*HOMEPAGE*/
 .portrait {
-  width: 50%;
-  float: right;
+  margin: auto;
   padding-bottom: 40px;
   padding-top: 10px;
-  padding-right: 40px;
   opacity: 90%;
 }
 
 .portrait img {
   width: 100%;
+  margin: auto;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 400;
   line-height: 25px;
-  padding-left: 40px;
-  padding-right: 20px;
   text-align: center;
+  margin-left: 10px;
+    margin-right: 10px;
 }
 
 p {
@@ -81,7 +80,7 @@ p {
 
 .homepage {
   width: 50%;
-  float: left;
+  margin: auto;
 }
 
 .yellowtype {
@@ -91,6 +90,7 @@ p {
   margin: auto;
   width: 50%;
   text-align: center;
+  padding-top: 20px;
 }
 
 /* NAVIGATION */
@@ -122,7 +122,7 @@ p {
   .connected {
     margin: auto;
     width: 50%;
-    padding-left: 22%;
+    text-align: center;
 }
 
  .connected a {
@@ -216,6 +216,22 @@ a:hover {
 }
 
 /*PORTFOLIO*/
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    margin: auto;
+  width: 50%;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:100%;
+    position:absolute;
+}
 
 .patterns {
   margin: auto;
@@ -406,6 +422,7 @@ opacity: 1
 
 @media screen and (max-width: 600px) {
 
+
   p {
     line-height: 22px;
     text-align: left;
@@ -439,8 +456,6 @@ opacity: 1
     width: 100%;
     margin: auto;
     opacity: 90%;
-    padding-left: 40px;
-    padding-right: 40px;
     margin-bottom: -30px;
   }
 
