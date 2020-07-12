@@ -119,19 +119,6 @@ p {
   overflow: hidden;
   }
 
-  .connected {
-    margin: auto;
-    width: 50%;
-    text-align: center;
-}
-
- .connected a {
-   color: #d6a116;
- }
-
- .connected a:visited {
-   color: #d6a116;
- }
 
 a:hover {
   text-decoration: line-through;
@@ -188,6 +175,7 @@ a:hover {
 
 .social {
   margin-left: 45%;
+  padding-bottom: 20px;
 }
 
 .fa {
@@ -362,12 +350,13 @@ opacity: 1
 /*FOOTER*/
 .footer {
   font-family: 'roboto', sans-Serif;
-  position: relative;
+  position: fixed;
   bottom: 0;
   font-size: 12px;
   padding-top: 20px;
   padding-left: 40px;
   color: black;
+  margin-bottom: 20px;
 }
 
 /**RESPONSIVE CODE**/
@@ -405,7 +394,7 @@ opacity: 1
     opacity: 90%;
     padding-left: 40px;
     padding-right: 40px;
-    margin-bottom: -30px;
+
   }
 
 
