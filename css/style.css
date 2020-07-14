@@ -95,7 +95,7 @@ p {
 
 /* NAVIGATION */
 nav {
-  padding-left: 25%;
+  padding-left: 23%;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -112,6 +112,7 @@ nav a {
 .dropbtn {
   background-color: white;
   color: black;
+  font-family: 'Roboto', Sans-Serif;
   font-size: 16px;
   border: none;
 }
