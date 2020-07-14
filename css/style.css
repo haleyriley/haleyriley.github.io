@@ -112,6 +112,7 @@ p {
   font-size: 16px;
   color: black;
   padding-left: 30px;
+  margin: auto;
 }
 
 .dropdown {
@@ -347,7 +348,6 @@ opacity: 1
 /*FOOTER*/
 .footer {
   font-family: 'roboto', sans-Serif;
-  position: fixed;
   bottom: 0;
   font-size: 12px;
   padding-top: 20px;
