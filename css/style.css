@@ -390,6 +390,11 @@ opacity: 1
 
 @media screen and (max-width: 600px) {
 
+  nav {
+    padding-left: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 
   p {
     line-height: 22px;
