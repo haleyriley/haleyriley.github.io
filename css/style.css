@@ -207,7 +207,6 @@ a:hover {
 .patterns {
   margin: auto;
 padding-top: 30px;
-  padding-left: 35%;
 }
 
 .sentinel {
@@ -436,6 +435,9 @@ opacity: 1
     width: 100%;
   }
 
+h2 {
+  line-height: 35px;
+}
   header {
     padding-top: 40px;
     margin: auto;
