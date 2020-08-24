@@ -1,0 +1,151 @@
+/*PORTFOLIO*/
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    margin: auto;
+  width: 50%;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:100%;
+    position:absolute;
+}
+
+.patterns {
+  margin: auto;
+padding-top: 30px;
+}
+
+.sentinel {
+  padding-top: 10px;
+}
+
+.photosamples {
+  padding-top: 50px;
+
+  margin: 0;
+}
+.container {
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  padding: 10px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: #18191b;
+  font-size: 20px;
+  padding: 16px 32px;
+  font-family: 'roboto', sans-Serif;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 10px;
+}
+
+.column img {
+  padding-bottom: 20px;
+}
+
+/*CONTACT*/
+.button {
+  border: none;
+  color: #f2f2f2;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #f2f2f2;
+  color: #18191b;
+  margin: 0;
+   top: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+ }
+
+ .button2 {
+   background-color: #f2f2f2;
+   color: #18191b;
+   border: 2px solid #cc927c;
+   margin: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  }
+
+.button:hover {
+    text-decoration: line-through;
+}
+
+.button1:hover {
+  background-color: #18191b;
+  color: #f2f2f2;
+opacity: 1
+}
+
+.button2:hover {
+  background-color: #cc927c;
+  color: #f2f2f2;
+opacity: 1
+}
+
+/*FOOTER*/
+.footer {
+  font-family: 'roboto', sans-Serif;
+  bottom: 0;
+  font-size: 12px;
+  padding-top: 20px;
+  color: #18191b;
+  margin-bottom: 20px;
+}
