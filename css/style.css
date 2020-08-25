@@ -96,7 +96,7 @@ margin-left: -10px;
 }
 
 .portrait {
-  margin: 20px;
+  margin: 50px;
 }
 
 .portrait img {
@@ -109,7 +109,7 @@ margin-left: -10px;
   font-weight: 300;
   text-align: left;
   font-family: 'Roboto', Sans-Serif;
-  margin: 20px;
+    margin-left: 50px;
 }
 
 h2 {
@@ -150,7 +150,7 @@ h2 {
 /**RESPONSIVE CODE**/
 
   /*desktop*/
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 1125px) {
 
 
 .logo {
@@ -159,7 +159,7 @@ h2 {
 
 .logo img {
   width: 150px;
-    margin-left: 50px;
+    margin-left: 125px;
   margin-top: 20px;
 }
 
@@ -189,7 +189,7 @@ overflow: hidden;
     }
 
 .navigation {
-      margin-right: 50px;
+      margin-right: 100px;
       margin-top: -50px;
 }
     a:hover {
@@ -205,7 +205,7 @@ overflow: hidden;
     .grid {
       margin-top: 50px;
       display: grid;
-      grid-template-columns: 40% 60%;
+      grid-template-columns: 50% 50%;
       width: 100%;
     }
 
@@ -214,9 +214,9 @@ overflow: hidden;
     }
 
     .portrait img {
-      width: 100%;
-      margin-left: 50px;
+      width: 80%;
       margin-top: 75px;
+      margin-left: 100px;
     }
 
     .hometype {
@@ -225,9 +225,8 @@ overflow: hidden;
       font-weight: 300;
       text-align: left;
       font-family: 'Roboto', Sans-Serif;
-      margin-right: 20px;
-      margin-left: 50px;
-      margin-top: 300px;
+      margin-left: 150px;
+      margin-top: 200px;
 
     }
 
