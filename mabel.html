@@ -5,43 +5,67 @@
 	<meta charset="UTF-8">
 	<meta property="og:title" content="Haley Riley Design"">
 <meta name="description" content="Freelance graphic design and illustration based in Portland, OR. Accepting clients.">
-	<title>Haley Riley Design- Mabel Magazine</title>
+	<title>Haley Riley Design</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500|Roboto:400,500,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-	<div class="content-wrapper">
-	<center>	<header>
+
+	<div class="logo">
+			<a href="index.html"><img src="images/logo.png"></a></div>
+
+			<div class="topnav">
 			<a href="index.html"><img src="images/logo.png"></a>
-		</header></center>
+		<br><br><br>
+			  <div id="myLinks">
+			    <a href="editorial.html">Editorial Design</a>
+			    <a href="posters.html">Posters</a>
+			    <a href="graphic.html">Graphic Design</a>
+					<a href="web.html">Web Design</a>
+				 <a href="patterns.html">Patterns</a>
+				 <a href="contact.html">Contact</a>
+				 <a href="shop.html">Shop</a>
+			  </div>
+			  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			    <i class="fa fa-bars"></i>
+			  </a>
+			</div>
 
-<nav><center>
-	<div class="dropdown">
-  <button class="dropbtn">Portfolio</button>
-  <div class="dropdown-content">
-		<a href="editorial.html">Editorial Design</a>
-		<a href="posters.html">Posters</a>
-		 <a href="graphic.html">Graphic Design</a>
-		<a href="web.html">Web Design</a>
-		 <a href="patterns.html">Patterns</a>
-  </div></div>
-	<a href="contact.html">Contact&nbsp;</a>
-	<a href="shop.html">Shop</a>
-</center>
-</nav>
-</div>
+			<script>
+			function myFunction() {
+				var x = document.getElementById("myLinks");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
 
 
-	<main>
-		<h2>Mabel Magazine</h2>
+<ul><div class="navigation">
+		<li>		<a href="shop.html">Shop</a></li></div>
+			<li>		<a href="contact.html">Contact</a></li>
+			<li>		 <a href="patterns.html">Patterns</a></li>
+				<li>		<a href="web.html">Web Design</a></li>
+							<li>	 <a href="graphic.html">Graphic Design</a></li>
+											<li>	<a href="posters.html">Posters</a></li>
+					<li><a href="editorial.html">Editorial Design</a></li>
+
+			</ul>
+
+
+	<main><center>
+		<h3>Mabel Magazine</h3>
 		<div class="sentinel">
 		<p>Mabel Magazine is a school project.<br><br>
 			The mission of the magazine is to create a community and publication that focuses on nonbinary folks and women who play and/or enjoy punk music. My aesthetic approach is grungy and
@@ -65,15 +89,15 @@ Below are examples of the cover and a couple of spreads.</p>
 <div class="container">
 <a href="images/mabel3.png"><img src="images/mabel3.png" style="width:100%"></a>
 </div>
-
+</center>
 	</main>
 
 
-<center>
+
 	<footer>
 		<div class="footer">All content copyright Haley Riley &copy; 2020</div>
 	</footer>
-</center>
+
 
 </body>
 
